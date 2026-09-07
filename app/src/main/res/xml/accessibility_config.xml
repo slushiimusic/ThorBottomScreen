@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Deliberately minimal. We ask only for window-state-changed events, which is what
+  tells us the foreground package. We do NOT request canRetrieveWindowContent or
+  flagRetrieveInteractiveWindows: we never read screen content, and those flags are
+  what make an accessibility service expensive (and invasive).
+  notificationTimeout=0 means "deliver as it happens" - it is not a poll interval.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:canRetrieveWindowContent="false"
+    android:description="@string/a11y_description"
+    android:notificationTimeout="0" />

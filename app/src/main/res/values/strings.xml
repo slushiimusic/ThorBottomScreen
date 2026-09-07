@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thor Bottom Screen</string>
+    <string name="service_label">Thor Bottom Screen</string>
+    <string name="a11y_description">Watches only which app comes to the foreground, so the bottom screen can be turned off for the apps you choose. It never reads screen content.</string>
+
+    <string name="setup_title">Setup</string>
+    <string name="grant_write_settings">Connect Shizuku</string>
+    <string name="grant_overlay">Allow display over other apps</string>
+    <string name="grant_accessibility">Open Accessibility settings</string>
+
+    <string name="opt_enabled">Enabled</string>
+    <string name="opt_restore">Turn the bottom screen back on when you leave</string>
+    <string name="opt_restore_hint">If this is off the bottom screen stays off after you leave a selected app, until you turn it back on with the dual-screen button. Unticking an app always brings it back either way.</string>
+    <string name="opt_override">The hardware button always wins</string>
+    <string name="opt_override_hint">If you press the dual-screen button and pick a mode yourself, this app stops touching the setting until you leave that app.</string>
+    <string name="opt_focus">Match the system menu exactly</string>
+    <string name="opt_focus_hint">Also sets the focus-lock settings the built-in menu sets, so windows and hardware keys stay on the top screen. Restored when the bottom screen comes back.</string>
+
+    <string name="opt_deep">Deep off: actually power the panel down</string>
+    <string name="opt_deep_hint">The built-in menu only covers the bottom screen with a black window, so the panel stays lit. This powers it off for real. The dual-screen button still works: pressing it powers the panel back so you can see the menu. A screen off/on also brings it back.</string>
+
+    <string name="opt_rotation">Hide the rotation suggestion button</string>
+    <string name="opt_rotation_hint">Stops SystemUI popping up its rotate icon in the corner. This one is device-wide, not per app, and applies the moment you flip it. Turning it back off restores whatever the setting was before.</string>
+
+    <string name="apps_title">Disable bottom screen for</string>
+    <string name="select_emulators">Select emulators</string>
+    <string name="search_hint">Search apps</string>
+</resources>
